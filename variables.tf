@@ -1,41 +1,39 @@
 variable "domain" {
   type = string
 
-  description = <<-END
-		Domain name
-
-		The ACM will be constructed for this domain name.
-		END
+  description = <<-EOT
+    the ACM will be constructed for this domain name.
+    EOT
 }
 
 variable "subject_alternative_names" {
   default = []
   type    = list(string)
 
-  description = <<-END
-		Domain name
+  description = <<-EOT
+    Domain name
 
-		The ACM will be constructed for this domain name.
-		END
+    The ACM will be constructed for this domain name.
+    EOT
 }
 
 variable "tags" {
   default = {}
   type    = map(string)
 
-  description = <<-END
+  description = <<-EOT
     The tags for resources
 
-		This module will include these tags on all resources.
-    END
+    This module will include these tags on all resources.
+    EOT
 }
 
 variable "zone_id" {
   type = string
 
-  description = <<-END
+  description = <<-EOT
     **DEPRECATED** zone_id
 
-		This will be removed in the next version!
-    END
+    This will be removed in the next version!
+    EOT
 }

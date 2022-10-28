@@ -18,3 +18,6 @@ Plan:
 ## [0.1.15](.)
 - Updated `aws` version
 - Updated `.terraform.lock.hcl` and `terraform.tf`
+
+## [0.1.16-1000](.)
+- Improved descriptions of variables and outputs
