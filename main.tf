@@ -1,5 +1,5 @@
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.11"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.12"
 
   path = path.module
   tags = var.tags
