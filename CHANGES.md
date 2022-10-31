@@ -21,5 +21,5 @@ Plan:
 ## [0.1.17](.)
 - Fixed `aws_route53_zone` data lookup
 
-## [0.1.18-1000](.)
+## [0.1.18-s3d-1001](.)
 - Changed to use `-*` as suffix for pre-release versions
