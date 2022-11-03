@@ -23,3 +23,8 @@ Plan:
 
 ## [0.1.18](.)
 - Changed to use `-x` as suffix for pre-release versions
+
+## [0.1.19-1000](.)
+- Upgraded `terraform` version
+- Upgraded `time` provider
+- Upgraded `name` module
